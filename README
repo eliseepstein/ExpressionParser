@@ -1,0 +1,29 @@
+EECS 293 - HW5: Parser
+Tom Pescatore - twp21
+Elise Epstein - ere22
+
+How to compile and run the code: 
+	To run the parser from the command line:
+		1. in terminal navigate to inside the Parser_twp21_ere22 directory
+		2. in terminal type 'make' and hit enter
+		3. In terminal type 'java parser.Parse "EXPRESSION"'
+		
+		Expression should be the expression meant to be parsed
+		and should be inside quotes with each token separated by a space
+		Ex:
+			"a + b / c"
+			"num / ( - c * d )"
+
+		The parse tree will be printed out in terminal
+
+	To Import into eclipse:
+		In eclipse, under file select: Open projects from file system
+		and select the Parser_twp21_ere22 directory and open.
+		
+	
+	To run tests:
+		Import into eclipse
+		Right click on the project and under: run as, choose Junit test
+		
+Other info:
+	Used Java 10
